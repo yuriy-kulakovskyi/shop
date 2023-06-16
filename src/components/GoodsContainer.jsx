@@ -102,7 +102,7 @@ export default function GoodsContainer() {
                               img={item.img}
                               color={item.color}
                               count={item.count}
-                              sale={sale}
+                              sale={item.sale}
                             />
         )}
       </div>
