@@ -95,7 +95,16 @@ const goods = [
 export default function GoodsContainer() {
   return (
      <div className="GoodsContainer">
-        {goods.map(item => <Goods key={item.title} title={item.title} />)}
+        {goods.map(item => <Goods 
+                              key={item.title} 
+                              title={item.title} 
+                              price={item.price}
+                              img={item.img}
+                              color={item.color}
+                              count={item.count}
+                              sale={sale}
+                            />
+        )}
       </div>
   )
 }
