@@ -1,5 +1,9 @@
 import React from 'react'
-import Goods from './Goods';
+import Goods from './Goods/Goods';
+
+// styles
+import './GoodsContainer.css';
+
 const goods = [
 
   { 
@@ -92,6 +96,7 @@ const goods = [
     sale: true
   }
 ];
+
 export default function GoodsContainer() {
   return (
      <div className="GoodsContainer">
