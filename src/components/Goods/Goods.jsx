@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export default function Goods({ title, price, img, color, count, sale }) {
   return (
