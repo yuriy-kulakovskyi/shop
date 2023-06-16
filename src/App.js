@@ -61,7 +61,7 @@ const goods = [
   },
 
   {
-    title: "Регульований стіл ADAPWORK SmartDesk 138х68 Дуб Аппалачі, Білий (106735885)",
+    title: "Регульований стіл ADAPWORK SmartDesk 138х68",
     price: 11999,
     img: "https://kupistul.ua/public/cache/610x610/reguliruemiy-stol-adapwork-smartdesk-138h68-dub-appalachi-beliy-106735885-3219.jpg?v1",
     color: "white",
